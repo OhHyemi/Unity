@@ -5,68 +5,42 @@ using UnityEngine.UI;
 
 namespace MyTween
 {
-    public static class Tween
+    public class Tween<T1, T2>
     {
-        public static event Action onPlay;
-        public static event Action onPause;
-        public static event Action onEnd;
-        public static Transform Move(this Transform tr, Vector3 to, float duration, AnimationCurve ease)
-        {
+        private T1 target;
+        private T2 v_start;
+        private T2 v_end;
+        private AnimationCurve ease;
 
-            return tr;
-        }
-        public static Transform MoveX(this Transform tr, float to, float duration, AnimationCurve ease)
-        {
-            return tr;
-        }
-        public static Transform MoveY(this Transform tr, float to, float duration, AnimationCurve ease)
-        {
-            return tr;
-        }
-        public static Transform MoveZ(this Transform tr, float to, float duration, AnimationCurve ease)
-        {
-            return tr;
-        }
+        private int loop; // -1 : infinite
 
-        static IEnumerator CoTransformMoveTween(Transform tr, Vector3 to, float duration, AnimationCurve ease)
+        private Action onPlay;
+        private Action onComplete;
+        private Action onPause;
+        private Action onEnd;
+
+        public void Play()
         {
-            float time = 0;
-            while (time < duration)
-            {
-                tr.position = Vector3.Slerp(tr.position, to, ease.Evaluate(time / duration));
-               time += Time.deltaTime;
             
-                yield return null;
-            }
+        }
+
+        public void Pause()
+        {
+            
+        }
+
+        public void Stop()
+        {
+            
+        }
+
+        public void Resume()
+        {
+            
         }
         
         
-        
-        public static void Scale(this Transform tr, Vector3 to, float duration)
-        {
-            
-        }
-        public static void ScaleX(this Transform tr, float to, float duration)
-        {
-            
-        }
-        public static void ScaleY(this Transform tr, float to, float duration)
-        {
-            
-        }
-        public static void ScaleZ(this Transform tr, float to, float duration)
-        {
-            
-        }
 
-        public static void Rotate(this Transform tr, Quaternion to, float duration)
-        {
-            
-        }
-        public static void Fade(this MaskableGraphic maskable, float to, float duration)
-        {
-
-        }
     }
 }
 

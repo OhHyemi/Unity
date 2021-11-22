@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using MyTween;
 using UnityEngine.UI;
 
 public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
@@ -14,6 +15,7 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     private event Action onClick;
 
     private Vector2 fromSize;
+    
 
     private void Awake()
     {
