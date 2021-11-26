@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="050df8f8-dc9b-42d4-bc4d-74cd24e388a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_Default.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_Default.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_Default.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_Default.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_NoLine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_NoLine.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_NoLine.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Button_NoLine.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/Tween.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/Tween.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35005453" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -50,10 +45,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16136">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21152">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16136" />
+      <option name="pid" value="21152" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -70,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637587785517</updated>
       <workItem from="1637587792523" duration="1025000" />
-      <workItem from="1637674147147" duration="7475000" />
+      <workItem from="1637674147147" duration="7942000" />
+      <workItem from="1637912999876" duration="6421000" />
     </task>
     <servers />
   </component>
@@ -90,6 +86,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
