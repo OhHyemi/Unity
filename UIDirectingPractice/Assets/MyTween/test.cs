@@ -9,7 +9,8 @@ public class test : MonoBehaviour
     public AnimationCurve curve;
     void Start()
     {
-        transform.Move(Vector3.one * 5, 10).SetEase(curve);
+        Tween tw = transform.Move(Vector3.one * 5, 10);
+        tw.SetEase(curve);
     }
 
     // Update is called once per frame

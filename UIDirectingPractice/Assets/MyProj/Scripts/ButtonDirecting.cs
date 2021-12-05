@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    public Image img;
     public AnimationCurve ease;
     public Vector2 toSize = Vector2.one;
     public float duration;
@@ -16,7 +17,6 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 
     private Vector2 fromSize;
     
-
     private void Awake()
     {
         fromSize = transform.localScale;
@@ -24,20 +24,21 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (isTweening == true)
+        if (isTweening)
         {
             return;
         }
-
-        StartCoroutine(CoAnimateScale());
+        // StartCoroutine(CoAnimateScale());
 
     }
     public void OnPointerUp(PointerEventData eventData)
     {
-        if (onClick != null)
-        {
-            onClick();
-        }
+        var tween = transform.Scale(toSize, duration).SetEase(ease);
+        tween.Play();
+        // if (onClick != null)
+        // {
+        //     onClick();
+        // }
     }
 
     public void AddListener(Action onClick)
@@ -52,7 +53,7 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         float time = 0;
         while (time < duration)
         {
-            transform.localScale =Vector2.Lerp(toSize, toSize * 0.9f, ease.Evaluate(time / duration));
+            transform.localScale =Vector2.Lerp(fromSize, toSize, ease.Evaluate(time / duration));
 
             time += Time.deltaTime;
             

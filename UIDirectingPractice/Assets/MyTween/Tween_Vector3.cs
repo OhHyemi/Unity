@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace MyTween
 {
-    public class TweenVector3 : Tween<Transform, Vector3>
+    public class TweenerVector3 : Tweener<Transform, Vector3>
     {
        
     }
