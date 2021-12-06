@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="050df8f8-dc9b-42d4-bc4d-74cd24e388a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/Tween.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/Tweener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/Tween.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/Tweener.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/Tween_Vector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/Tween_Vector3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,14 +17,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a8e296dc7c7b4e92800d9e996ed99e156600/76/489da0b8/CanvasGroup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127e81e1cb3441cc97d26b1910daae7713b000/cc/ba030139/AnimationCurve.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/SpellIcon/SpellIconManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/Tween_Vector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127e81e1cb3441cc97d26b1910daae7713b000/cb/7f355392/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/Tweener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a8e296dc7c7b4e92800d9e996ed99e156600/50/095ac9a6/ICanvasRaycastFilter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127e81e1cb3441cc97d26b1910daae7713b000/d3/d98a0587/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/SpellIcon/SpellIcon.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21HAkczdkRsWRRRsQvVumkDrb3o" />
   <component name="ProjectViewState">
@@ -57,10 +55,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17016">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17016" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -80,6 +78,7 @@
       <workItem from="1637674147147" duration="7942000" />
       <workItem from="1637912999876" duration="6421000" />
       <workItem from="1638695919119" duration="16216000" />
+      <workItem from="1638763380513" duration="9755000" />
     </task>
     <servers />
   </component>
