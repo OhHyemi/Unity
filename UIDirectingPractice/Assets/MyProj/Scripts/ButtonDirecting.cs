@@ -10,16 +10,22 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 {
     public Image img;
     public AnimationCurve ease;
-    public Vector2 toSize = Vector2.one;
+    public Vector2 toSize;
     public float duration;
     private bool isTweening = false;
     private event Action onClick;
 
     private Vector2 fromSize;
+
+    private Tween tw_down;
+    private Tween tw_up;
+    
     
     private void Awake()
     {
         fromSize = transform.localScale;
+        tw_down = transform.Scale(toSize, duration).SetEase(ease).SetAutoKill(false);
+        tw_up = transform.Scale(Vector3.one, duration).SetEase(ease).SetAutoKill(false);
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -28,17 +34,17 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         {
             return;
         }
+        tw_down.Play();
         // StartCoroutine(CoAnimateScale());
 
     }
     public void OnPointerUp(PointerEventData eventData)
     {
-        var tween = transform.Scale(toSize, duration).SetEase(ease);
-        tween.Play();
-        // if (onClick != null)
-        // {
-        //     onClick();
-        // }
+        tw_up.Play();
+        if (onClick != null)
+        {
+            onClick();
+        }
     }
 
     public void AddListener(Action onClick)
@@ -46,21 +52,21 @@ public class ButtonDirecting : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         this.onClick += onClick;
     }
 
-    IEnumerator CoAnimateScale()
-    {
-        isTweening = true;
-        
-        float time = 0;
-        while (time < duration)
-        {
-            transform.localScale =Vector2.Lerp(fromSize, toSize, ease.Evaluate(time / duration));
-
-            time += Time.deltaTime;
-            
-            yield return null;
-        }
-        isTweening = false;
-        transform.localScale = fromSize;
-    }
+    // IEnumerator CoAnimateScale()
+    // {
+    //     isTweening = true;
+    //     
+    //     float time = 0;
+    //     while (time < duration)
+    //     {
+    //         transform.localScale =Vector2.Lerp(fromSize, toSize, ease.Evaluate(time / duration));
+    //
+    //         time += Time.deltaTime;
+    //         
+    //         yield return null;
+    //     }
+    //     isTweening = false;
+    //     transform.localScale = fromSize;
+    // }
 
 }

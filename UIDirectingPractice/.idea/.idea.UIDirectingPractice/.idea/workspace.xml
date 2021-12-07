@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="050df8f8-dc9b-42d4-bc4d-74cd24e388a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/Tween_Vector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/SliderBanner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127e81e1cb3441cc97d26b1910daae7713b000/cb/7f355392/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/Tweener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,7 +79,8 @@
       <workItem from="1637674147147" duration="7942000" />
       <workItem from="1637912999876" duration="6421000" />
       <workItem from="1638695919119" duration="16216000" />
-      <workItem from="1638763380513" duration="9755000" />
+      <workItem from="1638763380513" duration="10358000" />
+      <workItem from="1638887554207" duration="3101000" />
     </task>
     <servers />
   </component>
@@ -102,24 +104,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs</url>
-          <line>50</line>
-          <properties documentPath="C:\Users\user\GitHub\UnityPractice\Unity\UIDirectingPractice\Assets\MyProj\Scripts\ButtonDirecting.cs" initialLine="48" containingFunctionPresentation="method 'CoAnimateScale'">
-            <startOffsets>
-              <option value="1119" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1137" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
