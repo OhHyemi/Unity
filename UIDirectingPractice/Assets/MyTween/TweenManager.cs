@@ -69,6 +69,7 @@ namespace MyTween
         }
         #endregion
 
+        #region Extention
         public static Tween SetEase(this Tween tween, AnimationCurve ease, bool pingpong = false)//ping pong: 다시 돌아오는 형태의 애니메이션
         {
             if (!tween.IsPlaying) //트윈이 플레이 중이지 않을 때 수정!
@@ -92,6 +93,20 @@ namespace MyTween
             }
             return tween;
         }
+        public static Tween SetAutoKill(this Tween tween, bool auto)
+        {
+            tween.IsAutoKill = auto;
+            return tween;
+        }
+
+        public static Tween SetOnEnd(this Tween tween, Action onEnd)
+        {
+            tween.OnEnd += onEnd;
+            return tween;
+        }
+        #endregion
+
+        #region Fade, Color
         public static Tween Fade(this CanvasGroup canvasGroup, float to, float duration)
         {
             var tweener = new Tweener<CanvasGroup, float>();
@@ -110,14 +125,20 @@ namespace MyTween
             tweener.Initialize(maskable.gameObject, maskable, maskable.color,new Color(maskable.color.r, maskable.color.g, maskable.color.b, to), duration, TweenColor);
             return tweener.Tween;
         }
-
         public static Tween Color(this MaskableGraphic maskable, float to, float duration)
         {
             return Fade(maskable, to, duration);
         }
+
+        #endregion
+       
+        public static void TweenFloat(this float value, float from, float to, float t)
+        {
+            value = Mathf.Lerp(from,to,t);
+        }
         static void TweenAlpha(CanvasGroup canvasGroup, float from, float to, float t)
         {
-            canvasGroup.alpha =UnityEngine.Color.Lerp(new Color(1, 1, 1, from), new Color(1, 1, 1, to), t).a;
+            canvasGroup.alpha = Mathf.Lerp(from,to,t);
         }
         static void TweenColor(MaskableGraphic maskable, Color from, Color to, float t)
         {
@@ -131,19 +152,7 @@ namespace MyTween
         {
             target.localScale = Vector3.Lerp(from, to, t);
         }
-        
-        public static Tween SetAutoKill(this Tween tween, bool auto)
-        {
-            tween.IsAutoKill = auto;
-            return tween;
-        }
 
-        public static Tween SetOnEnd(this Tween tween, Action onEnd)
-        {
-            tween.OnEnd += onEnd;
-            return tween;
-        }
-        
     }
     
 }

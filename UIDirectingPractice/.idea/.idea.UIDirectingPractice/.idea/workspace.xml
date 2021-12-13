@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="050df8f8-dc9b-42d4-bc4d-74cd24e388a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIDirectingPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonDirecting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Banner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/Banner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/BannerPageButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyProj/Resource/Prefabs/GUI/Lobby/BannerPageButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/Banner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/Banner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/BannerIndexButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/BannerIndexButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/SliderBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/SliderBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +30,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/Tween_Vector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/ButtonCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/test.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/New Folder/SliderBanner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127e81e1cb3441cc97d26b1910daae7713b000/cb/7f355392/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/Tweener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b6/429e75b9/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MyProj/Scripts/Banner/BannerScrollRect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a8e296dc7c7b4e92800d9e996ed99e156600/50/095ac9a6/ICanvasRaycastFilter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127e81e1cb3441cc97d26b1910daae7713b000/d3/d98a0587/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyTween/TweenManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,7 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35048753" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -56,10 +66,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21048">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="21048" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -81,6 +91,7 @@
       <workItem from="1638695919119" duration="16216000" />
       <workItem from="1638763380513" duration="10358000" />
       <workItem from="1638887554207" duration="3101000" />
+      <workItem from="1639368104553" duration="16263000" />
     </task>
     <servers />
   </component>
